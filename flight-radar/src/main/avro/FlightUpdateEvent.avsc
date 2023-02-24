@@ -1,0 +1,43 @@
+{
+    "namespace": "radar",
+    "type": "record",
+    "name": "FlightUpdateEvent",
+    "fields": [
+        {
+            "name": "id", 
+            "type": "string"
+        },
+        {
+            "name": "date",
+            "type": ["null", "string"]
+        },
+        {
+            "name": "destination", 
+            "type": "string"
+        },
+         {
+            "name": "STD",
+             "type": ["null", "long"]
+        },
+        {
+            "name": "STA",
+            "type": ["null", "long"]
+        },
+        {
+            "name": "timezones",
+            "type": "string"
+        },
+        {
+            "name": "status",
+            "type": ["null", "string"]
+        },
+        {
+            "name": "gate",
+            "type": ["null", "string"]
+        },
+        {
+            "name": "airline",  
+            "type": ["null", "string"]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+  "namespace": "radar",
+  "type": "record",
+  "name": "Flight",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "from",
+      "type": "string"
+    },
+    {
+      "name": "to",
+      "type": "string"
+    },
+    {
+      "name": "departureAirportCode",
+      "type": "string"
+    },
+    {
+      "name": "arrivalAirportCode",
+      "type": "string"
+    },
+    {
+      "name": "departureTime",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "arrivalTime",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "departureTimestamp",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "arrivalTimestamp",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "duration",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "status",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "gate",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "airline",
+      "type": ["null", "string"]
+    }
+  ]
+}

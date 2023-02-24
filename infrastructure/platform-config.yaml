@@ -1,0 +1,18 @@
+# platform-config.yaml
+organization:
+  name: barkod
+
+auth:
+  local-users:
+    - email: admin@barkod
+      password: barkod
+      groups:
+        - ADMIN
+clusters:
+  - id: flights-kafka-cluster
+    name: Fligths Kafka Cluster
+    color: '#0013E7'
+    bootstrapServers: 'broker1:29092,broker2:29093,broker3:29094'
+    schemaRegistry:
+      id: schema-registry
+      url: 'http://schema-registry:8081'

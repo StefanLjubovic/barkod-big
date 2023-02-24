@@ -1,0 +1,1 @@
+{"type":"record","name":"AirportUpdateEvent","namespace":"radar","fields":[{"name":"airpot","type":"string"},{"name":"city","type":"string"},{"name":"country","type":"string"},{"name":"code","type":"string"},{"name":"latitude","type":["double","null"]},{"name":"longitude","type":["double","null"]},{"name":"tz","type":["string","null"]}]}

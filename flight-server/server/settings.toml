@@ -1,0 +1,11 @@
+[KAFKA]
+TOPICS=["radar.airports.kpi", "radar.flights"]
+BOOTSTRAP_SERVERS=["broker1:29092,broker2:29093,broker3:29094"]
+SCHEMA_REGISTRY_URL="http://schema-registry:8081"
+GROUP_ID="flight-server"
+AUTO_OFFSET_RESET="earliest"
+ENABLE_AUTO_COMMIT=false
+MAX_POLL_RECORDS=20
+
+[PARQUET]
+BATCH_SIZE=1000

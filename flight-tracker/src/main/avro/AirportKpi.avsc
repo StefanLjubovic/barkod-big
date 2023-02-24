@@ -1,0 +1,51 @@
+{
+  "namespace": "radar",
+  "type": "record",
+  "name": "AirportKpi",
+  "fields": [
+    {
+      "name": "airport",
+      "type": "string"
+    },
+    {
+      "name": "city",
+      "type": "string"
+    },
+    {
+      "name": "country",
+      "type": "string"
+    },
+    {
+      "name": "code",
+      "type": "string"
+    },
+    {
+      "name": "latitude",
+      "type": ["null", "double"]
+    },
+    {
+      "name": "longitude",
+      "type": ["null", "double"]
+    },
+    {
+      "name": "tz",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "departuresLast5Minutes",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "canceledFlightsLast5Minutes",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "minFlightDuration",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "lastDepartureTimestamp",
+      "type": ["null", "long"]
+    }
+  ]
+}
